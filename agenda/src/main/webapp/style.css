@@ -1,0 +1,72 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap'); /* ir no google fonts selecionar as fontes e pegar o código do @import*/
+
+body{/*TUDO CRIADO AQUI VAI VALER PARA TODO body do projeto*/
+	font-family: 'Open Sans', sans-serif; /* também no google fonts pego a regra para ser incorporada em todo meu projeto*/ 
+	font-size: 1em; /*equivale a 16pixels ou fonte tamanho 12*/
+	font-weight: 400; /*equivale a fonte normal importada do google fonts*/
+}
+
+h1{/*TUDO CRIADO AQUI VAI VALER PARA TODO subtítulo h1 do projeto*/
+	color: #66bbff; /*trocar a for da fonte*/
+}
+
+.Botao1{ /*classe criada no botão1 em index vou alterar o estilo dele*/
+	text-decoration: none; /*remove o estilo do link pré definido que existe para site*/
+	background-color: #66bbff; 
+	padding: 5px 10px 5px 10px; /*cria espaçamento  interno: primeiro-cima, segundo-direita, terceiro-baixo, quarto-esquerda */
+	color: #fff; /*muda a cor da fonte*/
+	font-size: 1.2em; /*aumenta o tamanho da fonte em 20% o padrão defino foi 1 e eu coloquei 1.2, por isso 20%*/
+	font-weight: 700; /* negrito, lembrando que 700 é uma das fonts importadas do google fonts*/
+	border-radius: 5px; /*arredondar a borda*/
+	border: 0; /*remove a sombra do botao*/
+	cursor: pointer; /*ao passar o mouse sobre o botao transforma o cursor em maozinha*/
+}
+
+.Botao2{ /*classe criada no botão1 em index vou alterar o estilo dele*/
+	text-decoration: none; /*remove o estilo do link pré definido que existe para site*/
+	background-color: #d51213; 
+	padding: 5px 10px 5px 10px; /*cria espaçamento  interno: primeiro-cima, segundo-direita, terceiro-baixo, quarto-esquerda */
+	color: #fff; /*muda a cor da fonte*/
+	font-size: 1.2em; /*aumenta o tamanho da fonte em 20% o padrão defino foi 1 e eu coloquei 1.2, por isso 20%*/
+	font-weight: 700; /* negrito, lembrando que 700 é uma das fonts importadas do google fonts*/
+	border-radius: 5px; /*arredondar a borda*/
+}
+
+.Caixa1{ /*criar um estilo para caixa de textos tipo string*/
+	width: 320px; /*tamanho da caixa de texto*/
+	padding: 5px; /*espaçamento interno do texto com a caixa de texto*/
+	margin-bottom: 10px; /*espaçamento abaixo para a próxima caixa de texto*/	
+	border: 1px solid #66bbff; /*borda da caixa de texto, tamanho dela e a cor*/
+	border-radius: 5px; /*arredondar a caixa de texto*/
+}
+
+.Caixa2{
+	padding: 5px; /*espaçamento interno do texto com a caixa de texto*/
+	margin-bottom: 10px; /*espaçamento abaixo para a próxima caixa de texto*/	
+	border: 1px solid #66bbff; /*borda da caixa de texto, tamanho dela e a cor*/
+	border-radius: 5px; /*arredondar a caixa de texto*/
+}
+#caixa3{
+	padding: 5px; /*espaçamento interno do texto com a caixa de texto*/
+	margin-bottom: 10px; /*espaçamento abaixo para a próxima caixa de texto*/	
+	border: 1px solid #ff0000; /*borda da caixa de texto, tamanho dela e a cor*/
+}
+
+#tabela{ /*estilo para TABELA*/
+	margin-top: 30px; /* Margem superior*/
+	border-collapse: collapse; /*evita espaço entre as linhas e colunas da tabela*/
+}
+#tabela th{ /* Estilo para o cabeçalho da tabela */
+	border:	1px solid #ddd; /*cria uma borda de 1 pixel na cor cinza claro*/
+	padding: 10px; /* espaçamento de 10 pixel na altura*/
+	text-align: center; /* alinhamento do texto*/ 
+	background-color: #66bbff;
+	color: #fff; /*cor do texto brando*/
+}
+#tabela td{ /*Estilo para o corpo da tabela*/
+	border:	1px solid #ddd; /*cria uma borda de 1 pixel na cor cinza claro*/
+	padding: 10px; /* espaçamento de 10 pixel na altura*/
+}
+
+

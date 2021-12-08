@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>Agenda de contatos</title>
+<link rel="icon" href="imagens/favicon.png">
+<!-- é uma tag do html que acrescenta um ícone ao favorito -->
+<link rel="stylesheet" href="style.css">
+<!-- cria um link entre o documento html e a folha de estilo css -->
+</head>
+<body>
+
+	<!--
+table: Tabela / tr: linhas da tabela / td: coluna da tabela
+type text: desenha uma caixa de texto
+placeholder: insere um texto de marca dagua dentro da caixa de texto
+ -->
+
+	<h1>Criar novo contato</h1>
+	<form name="frmContato" action="insert">
+		<table>
+			<tr>
+				<td><input type="text" name="nome" placeholder="Nome" class="Caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="fone" placeholder="Fone" class="Caixa2"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="email" placeholder="E-mail" class="Caixa1"></td>
+			</tr>
+		</table>
+		<input type="button" value="Adicionar" class="Botao1" onclick="validar()">		
+	</form>
+<script src="scripts/validador.js"></script> <!-- Lincar o documento html com o documento javascript -->
+</body>
+</html>
